@@ -1,0 +1,106 @@
+/* 
+ * PC10258 Store - Global Styles
+ * Optimized & Consolidated
+ */
+
+/* ==========================================================================
+   Base Styles & Variables
+   ========================================================================== */
+:root {
+    --primary-color: #1a73e8;
+    --primary-hover: #174ea6;
+    --primary-light: #f1f7fe;
+    --text-main: #3c4043;
+    --text-dark: #202124;
+    --bg-white: #ffffff;
+    --bg-gray: #f8f9fa;
+    --border-gray: #dadce0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-white);
+    color: var(--text-main);
+}
+
+* {
+    box-shadow: none !important;
+}
+
+.google-font {
+    font-family: 'Inter', sans-serif;
+}
+
+/* ==========================================================================
+   Navigation & Interface
+   ========================================================================== */
+.nav-link:hover {
+    color: var(--primary-color);
+    background-color: var(--bg-gray);
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* ==========================================================================
+   Components
+   ========================================================================== */
+
+/* Tabs & Sidebars */
+.tab-active {
+    color: var(--primary-color);
+    background-color: var(--primary-light);
+    border-left: 4px solid var(--primary-color);
+}
+
+/* Carousel */
+.carousel-item {
+    min-width: calc((100% - 3rem) / 2.2);
+    transition: transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.carousel-item:active {
+    transform: scale(0.98);
+}
+
+@media (min-width: 768px) {
+    .carousel-item {
+        min-width: calc((100% - 6rem) / 3.8);
+    }
+}
+
+@media (min-width: 1024px) {
+    .carousel-item {
+        min-width: calc((100% - 8rem) / 5.2);
+    }
+}
+
+/* Forms & Inputs */
+.google-input:focus {
+    border-color: var(--primary-color);
+}
+
+/* Payment Selection */
+.payment-radio:checked+label {
+    border-color: var(--primary-color);
+    background-color: var(--primary-light);
+}
+
+.payment-radio:checked+label .radio-circle {
+    border-color: var(--primary-color);
+}
+
+.payment-radio:checked+label .radio-dot {
+    opacity: 1;
+}
+
+/* Product Detail */
+.product-thumb:hover {
+    border-color: var(--primary-color);
+}
