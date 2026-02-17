@@ -1,41 +1,46 @@
 # PC10258 Store
 
-A modern E-commerce website for tech products, built with HTML, Tailwind CSS, and Vanilla JavaScript.
+A modern, high-performance E-commerce storefront for tech products, inspired by Google Store's clean and minimal aesthetics.
 
-## Features
+🔗 **[Live Demo](https://nguywnben.github.io/pc10258-store/)**
 
-- **Responsive Design**: Fully optimized for mobile, tablet, and desktop.
-- **Modern UI**: Clean and minimal interface inspired by Google Store aesthetics.
-- **Product Carousel**: Interactive product showcase on the homepage.
-- **Product Gallery**: Dynamic image switching in product details.
-- **Cart System**: Easy-to-use shopping cart and checkout process.
-- **Account Management**: User profile, order history, and wishlist management.
+## 🚀 Key Features
 
-## Pages
+- **Responsive Design**: Fully optimized for mobile, tablet, and desktop viewing experiences.
+- **Modern UI/UX**: Clean interface built with Tailwind CSS, featuring smooth transitions and a premium feel.
+- **Interactive Carousel**: Dynamic product showcase on the homepage.
+- **Product Gallery**: Interactive image switching and selection in the product details page.
+- **Shopping Flow**: Fully functional cart management and professional checkout interface.
+- **Account Dashboard**: Includes personal profile, order history, wishlist, and security settings.
 
-- `index.html`: Homepage with featured products.
-- `products.html`: Product listing/category page.
-- `product-detail.html`: Individual product information.
-- `cart.html`: Shopping cart.
-- `checkout.html`: Order placement and payment.
-- `login.html`: User authentication (Sign In).
-- `register.html`: User account creation (Sign Up).
+## 📄 Pages Included
+
+- `index.html`: Homepage with featured products and categorized sections.
+- `products.html`: Product listing with filtering layout.
+- `product-detail.html`: Detailed product view with variant selections.
+- `cart.html`: Shopping cart summary.
+- `checkout.html`: Secure-look multi-step checkout process.
 - `account.html`: User profile overview.
-- `profile-edit.html`: Edit profile information.
-- `security.html`: Change password/security settings.
+- `profile-edit.html`: Profile information management.
+- `security.html`: Security and password update settings.
 - `orders.html`: Track and view order history.
-- `wishlist.html`: Saved products list.
+- `wishlist.html`: Saved products collection.
+- `login.html` & `register.html`: Clean authentication pages.
 
-## Technologies Used
+## 🛠️ Technologies Used
 
-- HTML5 & CSS3
-- Tailwind CSS
-- Vanilla JavaScript
-- Google Fonts (Inter)
+- **Frontend**: HTML5, CSS3, JavaScript (ES6+)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Typography**: [Inter](https://fonts.google.com/specimen/Inter) via Google Fonts
+- **Deployment**: [GitHub Pages](https://pages.github.com/)
 
-## Getting Started
+## 💻 Local Setup
 
-Simply open `index.html` in your browser to view the website.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/nguywnben/pc10258-store.git
+   ```
+2. Open `index.html` in your favorite browser.
 
 ---
-© 2026 PC10258 Store
+© 2026 PC10258 Store | Designed with ❤️ using Tailwind CSS.
